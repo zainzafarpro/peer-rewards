@@ -1,0 +1,15 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./jsconfig.app.json" },
+    { "path": "./jsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES6",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
